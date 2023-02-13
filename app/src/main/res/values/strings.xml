@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">RelativeLayout_TubagusMuhammadRofiAlFaiz_XIIRPL</string>
     <string name="txtHello">Hello Diana!</string>
+    <string name="tile"><font color = '#000'>Let\'s find </font>\n<font color= '#D07F21'>Hot Gurl</font> near you</string>
 
     <string-array name="dayArray">
         <item>Sunday</item>
