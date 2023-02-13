@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/reminder_name"
+        android:hint="Reminder Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reminder_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerTime"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reminder_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/spinnerDate" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerDate"
+        android:text="Submit"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        />
+</RelativeLayout>

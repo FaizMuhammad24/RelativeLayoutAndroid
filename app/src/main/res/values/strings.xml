@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RelativeLayout_TubagusMuhammadRofiAlFaiz_XIIRPL</string>
+    <string name="txtHello">Hello Diana!</string>
+
+    <string-array name="dayArray">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="timeArray">
+        <item>1 AM</item>
+        <item>2 AM</item>
+        <item>3 AM</item>
+        <item>4 AM</item>
+        <item>5 AM</item>
+        <item>6 AM</item>
+        <item>7 AM</item>
+        <item>8 AM</item>
+        <item>9 AM</item>
+        <item>10 AM</item>
+        <item>11 AM</item>
+        <item>12 AM</item>
+    </string-array>
+
+</resources>
